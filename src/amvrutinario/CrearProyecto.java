@@ -263,12 +263,14 @@ public class CrearProyecto extends javax.swing.JPanel {
         setLayout(new java.awt.GridLayout(1, 0));
 
         tabPanel.setTabPlacement(javax.swing.JTabbedPane.BOTTOM);
+        tabPanel.setMinimumSize(new java.awt.Dimension(960, 540));
 
+        jPanelGeneralidades.setMinimumSize(new java.awt.Dimension(960, 540));
         jPanelGeneralidades.setLayout(null);
 
         jLabel1.setText("Nombre del Ingeniero Residente");
         jPanelGeneralidades.add(jLabel1);
-        jLabel1.setBounds(10, 10, 250, 20);
+        jLabel1.setBounds(110, 10, 250, 20);
 
         txtIngenieroResidente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -276,83 +278,83 @@ public class CrearProyecto extends javax.swing.JPanel {
             }
         });
         jPanelGeneralidades.add(txtIngenieroResidente);
-        txtIngenieroResidente.setBounds(260, 10, 500, 25);
+        txtIngenieroResidente.setBounds(360, 10, 500, 25);
 
         jLabel2.setText("Nombre del Ingeniero Auxiliar");
         jPanelGeneralidades.add(jLabel2);
-        jLabel2.setBounds(10, 40, 250, 20);
+        jLabel2.setBounds(110, 40, 250, 20);
         jPanelGeneralidades.add(txtIngenieroAuxiliar);
-        txtIngenieroAuxiliar.setBounds(260, 40, 500, 25);
+        txtIngenieroAuxiliar.setBounds(360, 40, 500, 25);
 
         jLabel3.setText("Sector Administrativo");
         jPanelGeneralidades.add(jLabel3);
-        jLabel3.setBounds(10, 70, 250, 20);
+        jLabel3.setBounds(110, 70, 250, 20);
         jPanelGeneralidades.add(txtSectorAdministrativo);
-        txtSectorAdministrativo.setBounds(260, 70, 500, 25);
+        txtSectorAdministrativo.setBounds(360, 70, 500, 25);
 
         jLabel4.setText("Direccion Oficina");
         jPanelGeneralidades.add(jLabel4);
-        jLabel4.setBounds(10, 100, 250, 20);
+        jLabel4.setBounds(110, 100, 250, 20);
         jPanelGeneralidades.add(txtDireccionOficina);
-        txtDireccionOficina.setBounds(260, 100, 500, 25);
+        txtDireccionOficina.setBounds(360, 100, 500, 25);
 
         jLabel5.setText("Telefonos");
         jPanelGeneralidades.add(jLabel5);
-        jLabel5.setBounds(10, 130, 250, 20);
+        jLabel5.setBounds(110, 130, 250, 20);
         jPanelGeneralidades.add(txtTelefono);
-        txtTelefono.setBounds(260, 130, 96, 25);
+        txtTelefono.setBounds(360, 130, 96, 25);
 
         jLabel7.setText("Celular");
         jPanelGeneralidades.add(jLabel7);
-        jLabel7.setBounds(370, 130, 90, 20);
+        jLabel7.setBounds(470, 130, 90, 20);
 
         jLabel8.setText("FAX");
         jPanelGeneralidades.add(jLabel8);
-        jLabel8.setBounds(620, 130, 40, 20);
+        jLabel8.setBounds(720, 130, 40, 20);
         jPanelGeneralidades.add(txtFax);
-        txtFax.setBounds(660, 130, 100, 25);
+        txtFax.setBounds(760, 130, 100, 25);
 
         jLabel9.setText("Correo Electrónico");
         jPanelGeneralidades.add(jLabel9);
-        jLabel9.setBounds(10, 160, 250, 20);
+        jLabel9.setBounds(110, 160, 250, 20);
         jPanelGeneralidades.add(txtCorreo);
-        txtCorreo.setBounds(260, 160, 500, 25);
+        txtCorreo.setBounds(360, 160, 500, 25);
 
         jLabel10.setText("Administrador Vial");
         jPanelGeneralidades.add(jLabel10);
-        jLabel10.setBounds(10, 190, 250, 20);
+        jLabel10.setBounds(110, 190, 250, 20);
         jPanelGeneralidades.add(txtAMV);
-        txtAMV.setBounds(260, 190, 500, 25);
+        txtAMV.setBounds(360, 190, 500, 25);
 
         jLabel20.setText("Nombre de la cooperativa");
         jPanelGeneralidades.add(jLabel20);
-        jLabel20.setBounds(10, 220, 250, 20);
+        jLabel20.setBounds(110, 220, 250, 20);
         jPanelGeneralidades.add(txtCTA);
-        txtCTA.setBounds(260, 220, 220, 25);
+        txtCTA.setBounds(360, 220, 220, 25);
 
         jLabel21.setText("Tipo Terreno");
         jPanelGeneralidades.add(jLabel21);
-        jLabel21.setBounds(510, 220, 100, 20);
+        jLabel21.setBounds(610, 220, 100, 20);
         jPanelGeneralidades.add(txtTipoTerreno);
-        txtTipoTerreno.setBounds(620, 220, 140, 25);
+        txtTipoTerreno.setBounds(720, 220, 140, 25);
 
         jLabel22.setText("Logitud de Asignada");
         jPanelGeneralidades.add(jLabel22);
-        jLabel22.setBounds(10, 250, 250, 20);
+        jLabel22.setBounds(110, 250, 250, 20);
         jPanelGeneralidades.add(txtLongitud);
-        txtLongitud.setBounds(260, 250, 100, 25);
+        txtLongitud.setBounds(360, 250, 100, 25);
 
         jLabel23.setText("PR Inicial");
         jPanelGeneralidades.add(jLabel23);
-        jLabel23.setBounds(380, 250, 80, 20);
+        jLabel23.setBounds(480, 250, 80, 20);
 
         jLabel24.setText("PR Final");
         jPanelGeneralidades.add(jLabel24);
-        jLabel24.setBounds(380, 280, 80, 20);
+        jLabel24.setBounds(480, 280, 80, 20);
 
         jLabel6.setText("Sector");
         jPanelGeneralidades.add(jLabel6);
-        jLabel6.setBounds(10, 280, 250, 20);
+        jLabel6.setBounds(110, 280, 250, 20);
 
         txtSector.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -360,7 +362,7 @@ public class CrearProyecto extends javax.swing.JPanel {
             }
         });
         jPanelGeneralidades.add(txtSector);
-        txtSector.setBounds(260, 280, 100, 25);
+        txtSector.setBounds(360, 280, 100, 25);
 
         btnGeneralidades.setText("Continuar");
         btnGeneralidades.addActionListener(new java.awt.event.ActionListener() {
@@ -369,7 +371,7 @@ public class CrearProyecto extends javax.swing.JPanel {
             }
         });
         jPanelGeneralidades.add(btnGeneralidades);
-        btnGeneralidades.setBounds(610, 310, 150, 25);
+        btnGeneralidades.setBounds(710, 310, 150, 25);
 
         try {
             txtCelulares.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("### ### ####")));
@@ -377,7 +379,7 @@ public class CrearProyecto extends javax.swing.JPanel {
             ex.printStackTrace();
         }
         jPanelGeneralidades.add(txtCelulares);
-        txtCelulares.setBounds(430, 130, 180, 25);
+        txtCelulares.setBounds(530, 130, 180, 25);
 
         try {
             txtPRFinalGeneralidades.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###+###")));
@@ -385,7 +387,7 @@ public class CrearProyecto extends javax.swing.JPanel {
             ex.printStackTrace();
         }
         jPanelGeneralidades.add(txtPRFinalGeneralidades);
-        txtPRFinalGeneralidades.setBounds(470, 280, 100, 25);
+        txtPRFinalGeneralidades.setBounds(570, 280, 100, 25);
 
         try {
             txtPRInicialGeneralidades1.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###+###")));
@@ -393,7 +395,7 @@ public class CrearProyecto extends javax.swing.JPanel {
             ex.printStackTrace();
         }
         jPanelGeneralidades.add(txtPRInicialGeneralidades1);
-        txtPRInicialGeneralidades1.setBounds(470, 250, 100, 25);
+        txtPRInicialGeneralidades1.setBounds(570, 250, 100, 25);
 
         tabPanel.addTab("Generalidades", jPanelGeneralidades);
 
